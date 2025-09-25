@@ -16,4 +16,7 @@ def armstrong(num):
         return True
     return False
 
-if armstrong
+if armstrong(number):
+    print(number, " is an armstrong number")
+else:
+    print(number, " is not an armstrong number")
