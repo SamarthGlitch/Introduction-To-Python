@@ -1,6 +1,6 @@
 with open('merge1.txt') as fp:
     data1 = fp.read()
-
+    print(data1)
 with open('merge2.txt') as fp:
     data2 = fp.read()
 
