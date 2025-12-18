@@ -6,3 +6,6 @@ def setOrNot(number, n):
 number = int(input("Enter the number: "))
 n = int(input("Enter the bit position: "))
 setOrNot(number, n)
+10101
+1110
+11
