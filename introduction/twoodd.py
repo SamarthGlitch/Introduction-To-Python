@@ -13,7 +13,7 @@ def TwoOdd(arr, size):
         else:
             y = y ^ arr[i]
 
-    print("Two Odd elements are ",x," & ",y)
+    return "Two Odd elements are ",x," & ",y
 
 arr = []
 arr_size = int(input("Enter the size of the array"))
@@ -21,4 +21,4 @@ for i in range(0, arr_size):
     z = int(input("Enter element: "))
     arr.append(z)
 
-print("TwoOdd", TwoOdd(arr, arr_size))
+print(TwoOdd(arr, arr_size))
